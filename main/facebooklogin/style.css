@@ -1,0 +1,57 @@
+body{
+    font-family:opensansr !important;
+    background: url(bg-body1.png) repeat;
+    font-size:13px;
+}
+
+.top-margin{
+    width: auto;
+    height:150px;
+}
+
+#wrapper{
+    border:5px solid rgb(181, 182, 182);
+    min-height:100px;
+    background:#fff;
+    margin-top:150px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.content{
+    margin:30px;
+    width:auto;
+}
+
+.page-header h1{
+    color:#930b0e;
+    font-size:43px;
+    font-weight:normal;
+}
+
+.input-text{
+    padding:8px 5px 8px 5px !important;
+}
+
+.t-right{
+    text-align:right !important;
+}
+
+.marg20-top{
+    margin-top:20px !important;
+    clear:both;
+}
+
+.footer{
+    margin-top:20px;
+}
+
+.bubble{
+    position:fixed;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:1;
+}
